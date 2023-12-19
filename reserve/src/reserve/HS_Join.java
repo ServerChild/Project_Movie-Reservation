@@ -2,9 +2,13 @@ package reserve;
 
 import java.util.*;
 
-public class Join {
+// 회원가입시 비밀번호 확인
+// 로그인시 비밀번호 3회 제한!!!!!
+// 성별 1.남, 2.여 선택으로
+
+public class HS_Join {
 	Scanner scanner = new Scanner(System.in);
-	ArrayList<Member>mlist = new ArrayList<Member>();
+	ArrayList<HS_Member>mlist = new ArrayList<HS_Member>();
 	boolean check=false;
 	
 	//+ 1. 회원가입
@@ -16,7 +20,7 @@ public class Join {
 		System.out.println("이름 입력해 주세요 : ");
 		String name = scanner.next();
 		
-		mlist.add(new Member(id, password, name));
+		mlist.add(new HS_Member(id, password, name));
 		
 		System.out.println("지역 입력해 주세요 : 1.서울 / 2.경기 / 3.인천");
 		String region = scanner.next();

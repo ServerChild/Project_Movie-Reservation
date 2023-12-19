@@ -5,15 +5,13 @@ import java.util.*;
 public class Menu {
 
 	public static void main(String[] args) {
-		Join join = new Join();
-		Reserve reserve = new Reserve();
-		MovieList list = new MovieList();
 		
-		Scanner scanner = new Scanner(System.in);
-				
+		// 영화 : "겨울왕국" , "코코", "아바타", "매트릭스"
+		// 지역 : "서울", "경기", "인천"
+		// 극장 : "CGV", "메가박스", "롯데시네마", "씨네큐"
+		// 시간 : "9:00", "12:30". "14:30", "19:00", "23:30"
+		// 좌석 : ABCD, 12345
 		
-		boolean check=false;
-		ArrayList<Member> mlist = new ArrayList<Member>();
 		
 		while(true) {
 		System.out.println("┌――――――――――――――――――― 영화예매 사이트――――――――――――");
@@ -27,58 +25,7 @@ public class Menu {
 		System.out.println("│	8. 종료");
 		System.out.println("└――――――――――――――――――――――――――――――――――――――――――");
 		System.out.println("└ 원하시는 서비스에 해당하는 번호를 입력해 주세요");
-		int selectNum = scanner.nextInt();
-		
-		
-		
-		switch(selectNum) {
-			case 1: //Join.java
-				join.joinMember();
-				continue;
-			
-			case 2: //Join.java
-				if(check == false) {
-					join.login();
-					check = true;
-					continue;
-				} else {
-					join.logout();
-					continue;
-				}
-					
-			case 3: //MovieList.java
-				list.listCheck();
-				continue;
-			case 4: //MovieList.java
-				list.reserve();
-				continue;
-			case 5: //Reserve.java
-				reserve.checkBooking();
-				continue;
-			case 6: //Reserve.java
-				reserve.cancelBooking();
-				continue;
-			case 7: //Join.java
-				join.checkMyInfo();			
-				continue;
-			case 8: 
-				System.out.println("시스템이 종료합니다.");
-				System.exit(0);
-				break;
-				
-			default:
-				System.out.println("잘못누르셨습니다\n");
-				continue;
-		
-		}
-		
-		
-		
-		
-		
-		
-		
-		
+
 		
 		}
 		
