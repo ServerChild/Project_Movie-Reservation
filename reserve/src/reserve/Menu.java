@@ -14,19 +14,17 @@ public class Menu {
 		
 		
 		while(true) {
-		System.out.println("┌――――――――――――――――――― 영화예매 사이트――――――――――――");
-		System.out.println("│	1. 회원가입");
-		System.out.println("│	2. 로그인/로그아웃");
-		System.out.println("│	3. 목록조회");
-		System.out.println("│	4. 예매창");
-		System.out.println("│	5. 예매내역확인");
-		System.out.println("│	6. 예매취소");
-		System.out.println("│	7. [로그인 되었을때] 내정보 확인 ");
-		System.out.println("│	8. 종료");
-		System.out.println("└――――――――――――――――――――――――――――――――――――――――――");
-		System.out.println("└ 원하시는 서비스에 해당하는 번호를 입력해 주세요");
-
-		
+			System.out.println("┌――――――――――――――――――― 영화 예매 사이트―――――――――――――――――――┑");
+			System.out.println("│		1. 회원가입							    	│");
+			System.out.println("│		2. 로그인 / 로그아웃							│");
+			System.out.println("│		3. 목록 조회							 	 	│");
+			System.out.println("│		4. 예매 창							 		│");
+			System.out.println("│		5. 예매 내역 확인							 	│");
+			System.out.println("│		6. 예매 취소							 	 	│");
+			System.out.println("│		7. [로그인 되었을 때] 내정보 확인				 	│");
+			System.out.println("│		8. 종료							 		 	│");
+			System.out.println("└―――――――――――――――――――――――――――――――――――――――――――――――――――┚");
+			System.out.println("  └ 원하시는 서비스에 해당하는 번호를 입력해 주세요");
 		}
 		
 	}
