@@ -1,0 +1,52 @@
+
+=
+java:S2189""Add an end condition to this loop.(˜ïˆžÿÿÿÿÿ
+Z
+java:S1854"8Remove this useless assignment to local variable "seat".(Ô¾š‘ûÿÿÿÿ8¢­Ž…É1
+Z
+java:S1854"8Remove this useless assignment to local variable "time".(ì÷’¡ýÿÿÿÿ8£­Ž…É1
+a
+java:S1854"?Remove this useless assignment to local variable "distributor".(‰ÿÅ¢ùÿÿÿÿ8£­Ž…É1
+Y
+java:S1854"<Remove this useless assignment to local variable "location".( ©”¨8£­Ž…É1
+\
+java:S1854":Remove this useless assignment to local variable "movies".( ¡ßüÿÿÿÿ8¤­Ž…É1
+M
+java:S1481"+Remove this unused "movies" local variable.( ¡ßüÿÿÿÿ8ª­Ž…É1
+J
+java:S1481"-Remove this unused "location" local variable.( ©”¨8«­Ž…É1
+R
+java:S1481"0Remove this unused "distributor" local variable.(‰ÿÅ¢ùÿÿÿÿ8«­Ž…É1
+K
+java:S1481")Remove this unused "time" local variable.(ì÷’¡ýÿÿÿÿ8¬­Ž…É1
+K
+java:S1481")Remove this unused "seat" local variable.(Ô¾š‘ûÿÿÿÿ8¬­Ž…É1
+E	java:S106"+Replace this use of System.out by a logger.(ÀåÀùÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.( ËÞî
+P
+java:S2479":Remove the non-escaped \u0009 character from this literal.( ËÞî
+@	java:S106"+Replace this use of System.out by a logger.(åµÒ’
+P
+java:S2479":Remove the non-escaped \u0009 character from this literal.(åµÒ’
+E	java:S106"+Replace this use of System.out by a logger.(­º»ºýÿÿÿÿ
+U
+java:S2479":Remove the non-escaped \u0009 character from this literal.(­º»ºýÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(¸×Ë¸
+P
+java:S2479":Remove the non-escaped \u0009 character from this literal.(¸×Ë¸
+E	java:S106"+Replace this use of System.out by a logger.(¯¬Ö«ùÿÿÿÿ
+U
+java:S2479":Remove the non-escaped \u0009 character from this literal.(¯¬Ö«ùÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(èÀ×Ü
+P
+java:S2479":Remove the non-escaped \u0009 character from this literal.(èÀ×Ü
+@	java:S106"+Replace this use of System.out by a logger.(ÔÎÆÊ
+P
+java:S2479":Remove the non-escaped \u0009 character from this literal.(ÔÎÆÊ
+E	java:S106"+Replace this use of System.out by a logger.(˜²ž¸üÿÿÿÿ
+\
+java:S2479":Remove the non-escaped \u0009 character from this literal.(˜²ž¸üÿÿÿÿ8èŒ…É1
+@	java:S106"+Replace this use of System.out by a logger.(¶ÉçÐ
+L	java:S106 "+Replace this use of System.out by a logger.(«†ƒÿÿÿÿÿ8èŒ…É1
+<
+java:S1128"&Remove this unused import 'java.util'.(Î€ŒÙ
